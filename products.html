@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Продукция — EUROCOM (концепт)</title>
+<meta name="description" content="Линейка чёрных суперконцентратов SMART INT на основе LLDPE: 30–42 % техуглерода, светостойкость 8, пищевой допуск.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=block" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true"><svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="sg" x1="0" x2="1"><stop offset="0" stop-color="#ffe2b2" stop-opacity=".22"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".05"/><stop offset="1" stop-color="#96c4f4" stop-opacity=".22"/></linearGradient></defs><g fill="none" stroke="url(#sg)" stroke-width="1"><path d="M-80 0 C 420 260, 1020 640, 1520 900"/><path d="M-66 0 C 426 264, 1014 636, 1506 900"/><path d="M-52 0 C 432 268, 1008 632, 1492 900"/><path d="M-38 0 C 438 272, 1002 628, 1478 900"/><path d="M-24 0 C 444 276, 996 624, 1464 900"/><path d="M-10 0 C 450 280, 990 620, 1450 900"/><path d="M4 0 C 456 284, 984 616, 1436 900"/><path d="M18 0 C 462 288, 978 612, 1422 900"/><path d="M32 0 C 468 292, 972 608, 1408 900"/></g></svg></div>
+
+<header class="site-header">
+  <div class="wrap hbar">
+    <a class="brand" href="index.html" aria-label="EUROCOM — на главную"><svg viewBox="0 0 23 17" aria-hidden="true"><path d="M5 7.2 a4.6 4.6 0 1 0 0.01 0 Z"/><path d="M12.6 0.6 a4.4 4.4 0 1 0 0.01 0 Z"/><path d="M18.4 7.8 a4.3 4.3 0 1 0 0.01 0 Z"/><path d="M11.4 11.2 a2.4 2.4 0 1 0 0.01 0 Z"/></svg><span>EUROCOM</span></a>
+    <nav class="menu" aria-label="Основное меню">
+      <a href="products.html" aria-current="page">Продукция</a>
+      <a href="applications.html">Применение</a>
+      <div class="drop">
+        <a href="company.html">Компания <svg class="caret" viewBox="0 0 9 6" aria-hidden="true"><path d="M0.7 1.1 L4.5 4.6 L8.3 1.1"/></svg></a>
+        <div class="drop-list">
+          <a href="company.html#about">О компании</a>
+          <a href="company.html#production">Производство</a>
+          <a href="company.html#quality">Качество и документы</a>
+          <a href="company.html#sites">Площадки</a>
+        </div>
+      </div>
+    </nav>
+    <input class="navtoggle" type="checkbox" id="nav-open" aria-label="Открыть меню">
+    <label class="scrim" for="nav-open" aria-hidden="true"></label>
+    <div class="hright">
+      <a class="login" href="price.html">Запросить прайс-лист <svg class="navarrow" viewBox="0 0 10 9" aria-hidden="true"><path d="M0 4.5 H9.1 M5.4 0.9 L9.2 4.5 L5.4 8.1"/></svg></a>
+      <a class="pill" href="contacts.html">Связаться</a>
+      <label class="burger" for="nav-open" aria-label="Меню"><svg viewBox="0 0 22 14"><path class="b1" d="M1 1 H21"/><path class="b2" d="M1 7 H21"/><path class="b3" d="M1 13 H21"/></svg></label>
+    </div>
+    <nav class="mpanel" aria-label="Мобильное меню">
+      <a href="products.html" aria-current="page">Продукция</a>
+      <a href="applications.html">Применение</a>
+      <a href="company.html">Компания</a>
+      <a class="sub-link" href="company.html#production">Производство</a>
+      <a class="sub-link" href="company.html#quality">Качество и документы</a>
+      <a href="price.html">Запросить прайс-лист</a>
+      <a class="pill" href="contacts.html">Связаться</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Продукция</span>
+    <h1>Линейка <span class="grad">SMART INT</span></h1>
+    <p class="lead">Шесть марок чёрного суперконцентрата на основе LLDPE. Все с пищевым допуском и светостойкостью 8 — отличаются долей техуглерода, а значит, расходом на тонну изделия.</p>
+  </div>
+</section>
+
+<section class="block" id="podbor">
+  <div class="wrap">
+    <div class="picker glass" id="scale" tabindex="-1">
+      <div class="picker-head">
+        <span class="eyebrow">Подбор по доле техуглерода</span>
+        <span class="hint">Выберите марку на шкале · стрелки ← → тоже работают</span>
+      </div>
+      <div class="scale-track" role="group" aria-label="Марки по доле техуглерода">
+        <div class="scale-fill" id="scaleFill"></div>
+        <div id="scaleStops"></div>
+      </div>
+
+      <div class="grade" id="gradePanel">
+        <div class="grade-main">
+          <div class="grade-big num"><span id="gCarbonBig">38</span><small>%</small></div>
+          <h3 id="gName">SMART INT-2905</h3>
+          <p class="muted">Чёрный суперконцентрат на основе LLDPE</p>
+          <div class="chips" style="margin-top:6px"><span class="chip">✓ пищевой допуск</span><span class="chip">светостойкость 8</span></div>
+          <dl class="specs">
+            <div><dt>Полимер-носитель</dt><dd>LLDPE</dd></div>
+            <div><dt>Техуглерод</dt><dd class="num" id="gCarbon">38 %</dd></div>
+            <div><dt>Светостойкость</dt><dd>8</dd></div>
+            <div><dt>Пищевой допуск</dt><dd>да</dd></div>
+            <div><dt>ПТР</dt><dd class="tbd">по TDS</dd></div>
+            <div><dt>Фасовка</dt><dd class="tbd">по TDS</dd></div>
+          </dl>
+          <div class="grade-acts">
+            <a class="btn-glass" id="gPrice" href="price.html">Запросить цену <svg viewBox="0 0 16 11" aria-hidden="true"><path d="M0 5.5 H14.6 M10.3 1.2 L14.9 5.5 L10.3 9.8"/></svg></a>
+            <a class="btn-line" href="#" data-demo="В демо технический паспорт не загружен">Технический паспорт (PDF) <svg class="dl" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1v8M2.5 5.5 6 9l3.5-3.5M1 11h10"/></svg></a>
+          </div>
+        </div>
+        <div class="calc" id="calc">
+          <span class="eyebrow">Расчёт дозировки</span>
+          <div class="dose"><b class="num" id="dDose">6,6</b><span>% концентрата</span></div>
+          <div class="lbl-row"><label for="dTarget">Техуглерод в изделии</label><output id="dTargetV" class="num">2,5 %</output></div>
+          <input type="range" id="dTarget" min="0.5" max="4" step="0.1" value="2.5">
+          <div class="field"><label for="dBatch">Партия полимера, кг</label><input type="number" id="dBatch" value="1000" min="1" step="50" inputmode="numeric"></div>
+          <div class="rows" style="margin-top:18px">
+            <div><span>Концентрат на партию</span><b class="num" id="dKg">66 кг</b></div>
+            <div><span>Базовый полимер</span><b class="num" id="dBase">934 кг</b></div>
+            <div><span>Расход на 1 т изделия</span><b class="num" id="dPerT">66 кг</b></div>
+          </div>
+          <p class="note">Ориентир: дозировка = целевая доля техуглерода ÷ доля в концентрате. Точную дозировку технолог подтвердит под ваш процесс.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block reveal">
+  <div class="wrap">
+    <div class="shead">
+      <h2>Сравнение марок</h2>
+      <p>Нажмите на строку — марка откроется на шкале вместе с расчётом.</p>
+    </div>
+    <div class="table-wrap glass">
+      <table class="cmp" id="gradeTable">
+        <thead><tr><th>Марка</th><th>Основа</th><th>Техуглерод</th><th>Светостойкость</th><th>Пищевой</th><th></th></tr></thead>
+        <tbody>
+          <tr tabindex="0" data-code="2901">
+            <td class="code">SMART INT-2901</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:28px"></i><span class="num">30 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+          <tr tabindex="0" data-code="2902">
+            <td class="code">SMART INT-2902</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:42px"></i><span class="num">32 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+          <tr tabindex="0" data-code="2903">
+            <td class="code">SMART INT-2903</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:63px"></i><span class="num">35 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+          <tr tabindex="0" data-code="2905">
+            <td class="code">SMART INT-2905</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:84px"></i><span class="num">38 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+          <tr tabindex="0" data-code="2907">
+            <td class="code">SMART INT-2907</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:98px"></i><span class="num">40 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+          <tr tabindex="0" data-code="2908">
+            <td class="code">SMART INT-2908</td><td>LLDPE</td>
+            <td><div class="bar"><i style="width:112px"></i><span class="num">42 %</span></div></td>
+            <td class="num">8</td><td class="yes">да</td><td class="go">выбрать →</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="block reveal">
+  <div class="wrap split">
+    <div class="card glass">
+      <h3>Сажа</h3>
+      <p>Высокоструктурные марки общего назначения HAF и FEF с большой удельной поверхностью — для глубокого цвета и укрывистости. Для изделий с пищевым контактом — особо чистая сажа P-типа.</p>
+    </div>
+    <div class="card glass">
+      <h3>Полимеры-носители</h3>
+      <p style="margin-bottom:18px">Сырьё ведущих производителей:</p>
+      <div class="chips"><span class="chip">SABIC</span><span class="chip">Lotte</span><span class="chip">Daelim</span><span class="chip">ExxonMobil</span><span class="chip">СИБУР</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="block reveal">
+  <div class="wrap">
+    <div class="cta-band glass">
+      <div>
+        <h2>Нужна цена на партию?</h2>
+        <p>Отметьте марки и объём — пришлём прайс, условия доставки и технические паспорта.</p>
+      </div>
+      <div class="acts">
+        <a class="btn-glass" href="price.html">Запросить прайс-лист <svg viewBox="0 0 16 11" aria-hidden="true"><path d="M0 5.5 H14.6 M10.3 1.2 L14.9 5.5 L10.3 9.8"/></svg></a>
+        <a class="btn-line" href="tel:+73519431419">+7 (351) 943-14-19</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:16px"><svg viewBox="0 0 23 17" aria-hidden="true"><path d="M5 7.2 a4.6 4.6 0 1 0 0.01 0 Z"/><path d="M12.6 0.6 a4.4 4.4 0 1 0 0.01 0 Z"/><path d="M18.4 7.8 a4.3 4.3 0 1 0 0.01 0 Z"/><path d="M11.4 11.2 a2.4 2.4 0 1 0 0.01 0 Z"/></svg><span>EUROCOM</span></a>
+        <p class="note">Производство чёрных суперконцентратов для экструзии, литья под давлением и выдува.</p>
+      </div>
+      <div>
+        <h4>Продукция</h4>
+        <a href="products.html">Линейка SMART INT</a>
+        <a href="products.html#calc">Расчёт дозировки</a>
+        <a href="applications.html">Применение</a>
+        <a href="price.html">Прайс-лист</a>
+      </div>
+      <div>
+        <h4>Компания</h4>
+        <a href="company.html#about">О компании</a>
+        <a href="company.html#production">Производство</a>
+        <a href="company.html#quality">Документы</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <a class="num" href="tel:+73519431419">+7 (351) 943-14-19</a>
+        <a href="mailto:sale@macrocom.pro">sale@macrocom.pro</a>
+        <p>Челябинск, Копейское шоссе, 9П</p>
+        <p>Копейск, ул. Кемеровская, 24</p>
+      </div>
+    </div>
+    <div class="fbottom"><span>© EUROCOM Alliance Group</span><span>Концепт редизайна · студия ИНАЧЕ</span></div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
